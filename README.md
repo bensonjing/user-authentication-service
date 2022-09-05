@@ -30,9 +30,9 @@ clang++ -std=c++20 -o main *.cpp
 
 ## Usage
 
-### User Interface
+### User Interface Command
 
-**Create** *username* *password*: create username/password combination  
+**CREATE** *username* *password*: create username/password combination  
 **LOGIN** *username* *password*: validate username/password combination  
 **REMOVE** *username*: remove user with given username  
 **CLEAR**: Remove all username/password combination  
@@ -42,7 +42,7 @@ clang++ -std=c++20 -o main *.cpp
 
 **DEBUG ON**: turns on debug mode  
 **DEBUG OFF**: turns off debug mode  
-**LOGIN COUNT**: show the number of current username/password combination  
-**BUCKET COUNT**: show the number of buckets in the hash table at present  
-**LOAD FACTOR**: show the number of load factor of the hash table at present  
+**LOGIN COUNT**: shows the number of current username/password combination  
+**BUCKET COUNT**: shows the number of buckets in the hash table at present  
+**LOAD FACTOR**: shows the number of load factor of the hash table at present  
 **MAX BUCKET SIZE**: shows the length of the largest bucket in the hash table  
